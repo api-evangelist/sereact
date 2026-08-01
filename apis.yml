@@ -1,8 +1,13 @@
 aid: sereact
 name: Sereact
-description: 'Sereact is a company surfaced as a portfolio company of creandum, point-nine and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Sereact GmbH is a Stuttgart, Germany based physical-AI company building intelligent robotic
+  systems for warehouse and fulfillment automation. Its "Cortex" platform pairs a Vision Language Action
+  Model (VLAM) with robot control so robots can pick, place, sort, induct, and inspect diverse items in
+  production without task-specific retraining, running across 50+ deployments in Europe and the US. Products
+  include Pick-and-Place, Putwall, Induction, Bin Handling, Returns Handling, and the Lens perception
+  system. Backed by Creandum and Point Nine; announced a $110M Series B. Sereact does not currently publish
+  a public developer API, OpenAPI, or documentation surface — an internal api.sereact.ai host exists but is
+  a placeholder. This profile captures the company identity and public web/GitHub surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sereact/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://t03apfsmwkxr60hu.public.blob.vercel-storage.com/new_design/compressed/og-fallback.webp
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Robotics
+- Warehouse Automation
+- Physical AI
+- Computer Vision
+- Logistics
+- Fulfillment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sereact-domain-security.yml
 - type: Website
   url: https://sereact.ai/
+- type: GitHubOrganization
+  url: https://github.com/sereact
+- type: PrivacyPolicy
+  url: https://sereact.ai/privacy
+- type: Support
+  url: https://sereact.ai/contact
+- type: Blog
+  url: https://sereact.ai/news
+- type: LegalNotice
+  url: https://sereact.ai/legal
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
